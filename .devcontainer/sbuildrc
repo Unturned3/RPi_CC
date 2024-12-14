@@ -1,0 +1,17 @@
+# *** VERIFY AND UPDATE $mailto and $maintainer_name BELOW ***
+
+# Mail address where logs are sent to (mandatory, no default!)
+$mailto = 'vscode';
+
+# Name to use as override in .changes files for the Maintainer: field
+#$maintainer_name='vscode <vscode@localhost>';
+
+# Directory for chroot symlinks and sbuild logs.  Defaults to the
+# current directory if unspecified.
+#$build_dir='/home/vscode/ubuntu/build';
+
+# Directory for writing build logs to
+$log_dir="/home/vscode/ubuntu/logs";
+
+# don't remove this, Perl needs it:
+1;
